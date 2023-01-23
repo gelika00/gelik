@@ -1,0 +1,572 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.promo {
+    min-height: 800px;
+    background: url('../img/bg/б.png') center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+    background-color:rgb(0, 0, 0);
+}
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#mainmenu {
+    background: rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    margin: 0px 0
+}
+#mainmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    font: 20x Roboto;
+    height: 40px
+}
+#mainmenu ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+    height: 40px
+}
+#mainmenu ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 50px;
+}
+#mainmenu ul li a:hover {
+    background-color: #666;
+}
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+    width: 114px;
+}
+
+.logo .logo_text {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+.title {
+    color: #000000;
+    font-family: "Roboto - Black";
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2.title {
+    margin-top: 30px;
+}
+
+.simple .title_big {
+    color: #000000;
+    font-family: "Roboto - Black";
+    font-size: 41px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.promo .promo_text {
+    padding: 0 20px;
+    margin-top: 40px;
+    color: #000000;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 40px;
+    font-family: "Roboto Light";
+    text-align: center;
+}
+
+
+.more {
+    margin-top: 73px;
+}
+
+.more .more_text {
+    height: 40px;
+    color: #ffffff;
+    font-family: "Roboto - Thin";
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+.waiting {
+    min-height: 700px;
+    background-color: #e6e6e6;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header, .finish .finish_header {
+    color: #000000;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.finish .finish_header {
+    color: #fff;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
+    width: 217px;
+    height: 4px;
+    background-color: #000000;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.waiting .waiting_subheader {
+    margin-top: 17px;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    width: 339px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 33px;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+.optimization .optimization_header {
+    margin-left: 391px;
+    color: #522605;
+    font-family: "Roboto - Black";
+    font-size: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.optimization .optimization_text {
+    margin-top: 25px;
+    margin-left: 391px;
+    color: #733909;
+    font-size:20px;
+    font-weight: 500;
+    line-height: 27px;
+    font-family: "Roboto Light";
+}
+.optimization .optimization_text span {
+    font-weight: 700;
+}
+.optimization .optimization_img {
+    position: absolute;
+    top: -200px;
+    left: -275px;
+    z-index: -1;
+}
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/slayder/4.png') center center/cover no-repeat;
+}
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 25px;
+    text-align: center;
+    color: #efefef;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.gift{
+    min-height: 620px;
+    background-color: #000000;
+    padding: 86px 0 87px 0;
+}
+
+.gift .gift_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_offer{
+    margin-top: 42px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+}
+.promo .promo_btn, .gift .gift_btn {
+    display: block;
+    margin: 0px auto;
+    margin-top: 73px;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.185);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+.webinar{
+    min-height: 515px;
+    padding: 89px 0 64px 0;
+}
+.webinar .webinar_img{
+    display: block;
+    margin: 0 auto;
+}
+.webinar .webinar_text{
+    margin-top: 37px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.webinar .data{
+    margin-top: 30px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.webinar .calling_text{
+    margin-top: 25px;
+    color: #4a4a4a;
+    font-family: Roboto; 
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer{
+    padding-top: 61px;
+    min-height: 166px;
+    background-color: #1a1a1a;
+}
+.footer .footer_text{
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+}
+.footer .footer_text a{
+    color: #888888;
+}
+
+.opti {
+    min-height: 550px;
+    padding: 50px 0 107px 0;
+    background-color: #ffffff;
+}
+.opti .opti_head {
+    margin-left: 100px;
+    color: #000000;
+    font-family: "Roboto - Black";
+    font-size: 47px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.opti .opti_te {
+    margin-top: 25px;
+    margin-left: 100px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: "Roboto Light";
+}
+.opti .opti_te span {
+    font-weight: 700;
+}
+.opti .imgk {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.opti .number {
+    text-align: center;
+    font-weight: bold;
+}
+article {
+    width: 900px;
+}
+figure {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+.op {
+    min-height: 550px;
+    padding: 50px 0 107px 0;
+    background-color: #ffffff;
+}
+.op .op_head {
+    margin-left: 120px;
+    color: #000000;
+    font-family: "Roboto - Black";
+    font-size: 47px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.op .op_te {
+    margin-top: 25px;
+    margin-left: 120px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: "Roboto Light";
+}
+.op .op_te span {
+    font-weight: 700;
+}
+.op .im {
+    display: block;
+    margin-left: 0px;
+}
+.op .numb {
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+
+.o {
+    min-height: 550px;
+    padding: 50px 0 107px 0;
+    background-color: #ffffff;
+}
+.o .o_head {
+    margin-left: 120px;
+    color: #000000;
+    font-family: "Roboto - Black";
+    font-size: 47px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.o .o_te {
+    margin-top: 25px;
+    margin-left: 120px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: "Roboto Light";
+}
+.o .o_te span {
+    font-weight: 700;
+}
+.o .i {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.o .num {
+    font-weight: bold;
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: #ccc;
+  }
+
+
+  .adaptivSlayder {
+    position: relative;
+    max-width: 710px;
+    margin: 1px auto;
+    box-shadow: 0 9px 18px -4px rgba(0, 0, 0, 0.69);
+  }
+  .adaptivSlayder input[name="kadoves"] {
+    display: none;
+  }
+  .kadoves {
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+    text-align: center;
+    width: 100%;
+  }
+  .kadoves label {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    cursor: pointer;
+    margin: 0 6px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .7);
+    border-radius: 55%;
+    border: 4px solid #2f363c;
+    background-color: #738290;
+  }
+  #slaid1:checked~.kadoves label[for="slaid1"] {
+    background-color: white;
+  }
+  #slaid2:checked~.kadoves label[for="slaid2"] {
+    background-color: white;
+  }
+  #slaid3:checked~.kadoves label[for="slaid3"] {
+    background-color: white;
+  }
+  .adaptivSlayderlasekun {
+    overflow: hidden;
+  }
+  .abusteku-deagulus {
+    display: flex;
+    width: 100%;
+    transition: all 0.6s;
+  }
+  .abusteku-deagulus img {
+    width: 100%;
+    flex-shrink:0;
+  }
+  #slaid1:checked~adaptivSlayderlasekun abusteku-deagulus {
+    transform: translate(0);
+  }
+  #slaid2:checked~.adaptivSlayderlasekun .abusteku-deagulus {
+    transform: translateX(-100%);
+  }
+  #slaid3:checked~.adaptivSlayderlasekun .abusteku-deagulus {
+    transform: translateX(-200%);
+  }
+
+
+  
+.tizery-hr {
+    border: 1px solid #c4c4c4; /* Рамка всего блока. Стоит ширина 1px, solid - непрерывная, #c4c4c4 - это ее цвет. Если рамка не нужна - просто удалите эту строку */
+    margin: 10px 0 10px 0; /* Внешний отступ всего блока с тизерами от контента страницы. Стоит сверху и снизу по 10px, а слева и справа 0px */
+    padding: 10px 5px 5px 5px; /* Внутренний отступ внутри блока. Чтобы не сливались с краями рамки тизеры. Соответственно: сверху 10 px, справа 5px, снизу 5px, слева 5px */
+    text-align: center; /* Выравнивание текста во всем блоке по центру */
+ 
+}
+.tizery-hr img {
+    width: 200px; /* Установили принудительно ширину картинки в 150px, на случай если у вас будут все разного размера */
+    height: 200px; /* Установили высоту картинки в 150px, аналогично как с шириной случай */
+    display: block; /* Позволяет перенести текст под картинку в нашем случае. Оставляем так */
+    margin: 0 auto 10px; /* Внешний отступ картинки. Сверху 0px, слева и справа auto, чтобы она была ровно по центру своего блока тизера. Снизу 10px, чтобы не сливалось с текстом */
+}
+.tizery-hr a {
+    color: rgb(0, 0, 0) !important; /* Цвет ссылки, если требуется сменить стандартный цвет ссылок шаблона. Попробуйте удалить ее и посмотреть как у вас настроено по-умолчанию в шаблоне */
+    display: inline-block; /* Этим параметром мы говорим, чтобы блоки становились в одну строку и при низком разрешении красиво выстраивались друг под другом */
+    font-weight: bold; /* Делаем текст жирным. Если не нужно - просто удалите строку */
+    font-size: 16px !important; /* Размер шрифта у текста. Поэкспериментируйте с размером */
+    margin: 5px 0 5px 0; /* Задаем внешний отступ каждому блоку с тизером, чтобы при низком разрешении они не налазили друг на друга снизу и сверху. Соответственно по 5px сверху и снизу */
+    padding: 5px; /* Задаем внутренний отступ для каждого блока с тизером, чтобы тот же текст не прилипал к краям блока, если вы добавите ему рамку */
+    width: 500px; /* Задаем ширину блока каждого. Здесь можно сделать и 150px по ширине картинки, чтобы текст ровно под ней был. На ваше усмотрение */
+    vertical-align: top; /* Данный параметр выравнивает все тизеры по верхнему краю. Пригодится в случае, если у вас какой-то текст будет больше на 1-2 строки, чем остальные */
+}
+.kort {
+    color: #000000;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+

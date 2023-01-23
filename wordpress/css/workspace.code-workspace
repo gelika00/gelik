@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Project"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wordpress",
+		"liveServer.settings.port": 5501
+	}
+}
